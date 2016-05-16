@@ -1097,29 +1097,29 @@ done
 complete -F _up64 -o nospace -S / up64
 
 
-up() {
-  num=$1
-  if [ $num -eq $num ]; then
-    if [[ $num -gt 0 ]]; then
+#up() {
+#  num=$1
+#  if [ $num -eq $num ]; then
+#    if [[ $num -gt 0 ]]; then
 #      let num-=1
 #      `.1;up $num`
-      max=64
-      if [[ $num -gt $max ]]; then
-        printf "Error: $0 only permits up to $max but $num was given\n"
-      else
-        `up$num`
-        printf "up(): pwd = `pwd`\n"
-      fi
-    elif [[ $num -lt 0 ]]; then
-      printf "Error: $0 does not allow going up a negative number of directories, because that action is undefined\n"
-    else
-      printf "Warning: going up 0 directories does not change directories\n"
-    fi
-  else
-    if [ $num ]; then
-      echo -e "Error: $0 expects an integer but '$1' was given\n"
-    else
-      `cd ../ --silent`
-    fi
-  fi
-}
+#      max=64
+#      if [[ $num -gt $max ]]; then
+#        printf "Error: $0 only permits up to $max but $num was given\n"
+#      else
+#        `up$num`
+#        printf "up(): pwd = `pwd`\n"
+#      fi
+#    elif [[ $num -lt 0 ]]; then
+#      printf "Error: $0 does not allow going up a negative number of directories, because that action is undefined\n"
+#    else
+#      printf "Warning: going up 0 directories does not change directories\n"
+#    fi
+#  else
+#    if [ $num ]; then
+#      echo -e "Error: $0 expects an integer but '$1' was given\n"
+#    else
+#      `cd ../ --silent`
+#    fi
+#  fi
+#}
