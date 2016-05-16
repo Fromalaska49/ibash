@@ -1,7 +1,6 @@
 #color definitions
 
 export TEXT_COLOR_DEFAULT=''
-
 export TEXT_COLOR_NC='\e[0m' # No Color
 export TEXT_COLOR_WHITE='\e[1;37m'
 export TEXT_COLOR_BLACK='\e[0;30m'
@@ -21,3 +20,6 @@ export TEXT_COLOR_GRAY='\e[0;30m'
 export TEXT_COLOR_LIGHT_GRAY='\e[0;37m'
 
 export TEXT_COLOR_STOP='\e[m'
+
+export TEXT_BOLD=$(tput bold)
+export TEXT_BOLD_STOP=$(tput sgr0)
