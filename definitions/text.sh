@@ -1,5 +1,7 @@
 #color definitions
 
+export TEXT_COLOR_DEFAULT=''
+
 export TEXT_COLOR_NC='\e[0m' # No Color
 export TEXT_COLOR_WHITE='\e[1;37m'
 export TEXT_COLOR_BLACK='\e[0;30m'
