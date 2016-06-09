@@ -1,5 +1,5 @@
 ibash_path="${BASH_SOURCE%/*}"
-ibash_path+="/ibash"
+#ibash_path+="/ibash"
 
 load_ibash_module() {
   expectedParameterCount=1
