@@ -22,4 +22,21 @@ export TEXT_COLOR_LIGHT_GRAY='\e[0;37m'
 export TEXT_COLOR_STOP='\e[m'
 
 export TEXT_BOLD=$(tput bold)
-export TEXT_BOLD_STOP=$(tput sgr0)
+export TEXT_UNDERLINE=$(tput smul)
+export TEXT_DIM=\e[2m#$(tput dim)
+export TEXT_BLINK=$(tput blink)
+export TEXT_REVERSE=$(tput rev)
+export TEXT_HIDDEN=\e[8m#$(tput invis)
+export TEXT_ITALIC=\e[8m#$(tput sitm)
+export TEXT_WIDE=\e[8m#$(tput swidm)
+export TEXT_SUBSCRIPT=\e[8m#$(tput ssubm)
+export TEXT_SUPERSCRIPT=\e[8m#$(tput ssupm)
+
+export TEXT_WIDE_STOP=\e[8m#$(tput rwidm)
+export TEXT_SUBSCRIPT_STOP=\e[8m#$(tput rsubm)
+export TEXT_SUPERSCRIPT_STOP=\e[8m#$(tput rsupm)
+
+export TEXT_UNDERLINE_STOP=$(tput rmul)
+
+
+export TEXT_STOP=$(tput sgr0)
