@@ -18,4 +18,5 @@ load_ibash_module() {
   else
     printf "$0 expects $expectedParameterCount parameters, but $# given\n"
   fi
+  return;
 }
