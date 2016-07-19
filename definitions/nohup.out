@@ -1,0 +1,11 @@
+/Library/Caches/com.apple.xbs/Sources/AppleGVA/AppleGVA-9.1.12/Sources/Slices/Driver/AVD_loader.cpp: failed to get a service for display 3 
+dyld: warning, LC_RPATH @executable_path/../Frameworks in /Users/Andrew/Library/Screen Savers/Aerial.saver/Contents/MacOS/Aerial being ignored in restricted program because of @executable_path
+dyld: warning, LC_RPATH @executable_path/../Frameworks in /Users/Andrew/Library/Screen Savers/Aerial.saver/Contents/MacOS/Aerial being ignored in restricted program because of @executable_path
+dyld: warning, LC_RPATH @executable_path/../Frameworks in /Users/Andrew/Library/Screen Savers/Aerial.saver/Contents/MacOS/Aerial being ignored in restricted program because of @executable_path
+dyld: warning, LC_RPATH @executable_path/../Frameworks in /Users/Andrew/Library/Screen Savers/Aerial.saver/Contents/MacOS/Aerial being ignored in restricted program because of @executable_path
+dyld: warning, LC_RPATH @executable_path/../Frameworks in /Users/Andrew/Library/Screen Savers/Aerial.saver/Contents/MacOS/Aerial being ignored in restricted program because of @executable_path
+dyld: warning, LC_RPATH @executable_path/../Frameworks in /Users/Andrew/Library/Screen Savers/Aerial.saver/Contents/MacOS/Aerial being ignored in restricted program because of @executable_path
+2016-06-30 15:09:44.081 ScreenSaverEngine[23798:886996] AVPlayerItemPlaybackStalledNotification NSConcreteNotification 0x7fbfd07a4160 {name = AVPlayerItemPlaybackStalledNotification; object = <AVPlayerItem: 0x7fbfd0750910, asset = <AVURLAsset: 0x7fbfd07b9670, URL = streaming://a1.phobos.apple.com/us/r1000/000/Features/atv/AutumnResources/videos/b1-4.mov>>}
+2016-06-30 16:12:43.745 ScreenSaverEngine[24043:898551] AVPlayerItemPlaybackStalledNotification NSConcreteNotification 0x7ffbd846eb20 {name = AVPlayerItemPlaybackStalledNotification; object = <AVPlayerItem: 0x7ffbd84673d0, asset = <AVURLAsset: 0x7ffbda98a520, URL = streaming://a1.phobos.apple.com/us/r1000/000/Features/atv/AutumnResources/videos/b4-2.mov>>}
+/Library/Caches/com.apple.xbs/Sources/AppleGVA/AppleGVA-9.1.12/Sources/Slices/Driver/AVD_loader.cpp: failed to get a service for display 3 
+/Library/Caches/com.apple.xbs/Sources/AppleGVA/AppleGVA-9.1.12/Sources/Slices/Driver/AVD_loader.cpp: failed to get a service for display 3 

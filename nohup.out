@@ -1,0 +1,3 @@
+2016-07-04 16:40:43.575 ScreenSaverEngine[27805:670217] 16:40:43.575 ERROR:    177: timed out after 0.012s (5606 5606); mMajorChangePending=0
+2016-07-04 16:40:43.594 ScreenSaverEngine[27805:670123] 16:40:43.594 ERROR:    177: timed out after 0.012s (5606 5606); mMajorChangePending=0
+/Library/Caches/com.apple.xbs/Sources/AppleGVA/AppleGVA-9.1.12/Sources/Slices/Driver/AVD_loader.cpp: failed to get a service for display 3 
