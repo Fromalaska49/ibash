@@ -12,14 +12,7 @@ help() {
   if [ "$#" -eq "0" ]; then
     builtin help;
     
-    char_block=`tput ACS_BLOCK`
-    max=`tput cols`
-    for i in `seq 1 $max`
-    do
-      S+="${char_block}"
-    done
-    
-    printf "\n${S}\niBash Help\n\n"
+    printf "\n${TEXT_BOLD}iBash Help${TEXT_STOP}\n\n"
     #list the entries here
     ibash_print_help_entry "videopaper" "sets screensaver as desktop background"
     ibash_print_help_entry "up" "goes up 1 directory"
