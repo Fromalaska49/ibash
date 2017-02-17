@@ -18,7 +18,7 @@ help() {
     ibash_print_help_entry "up" "goes up 1 directory"
     ibash_print_help_entry ".." "goes up one directory"
     ibash_print_help_entry "talk++" "increases verbosity of shell for debugging"
-    ibash_print_help_entry "talk--" "decreases verbosity of the shell (turns off talk++"
+    ibash_print_help_entry "talk--" "decreases verbosity of the shell (turns off talk++)"
     ibash_print_help_entry "settings" "opens .bash_profile for editing"
     ibash_print_help_entry "back" "goes back to the previous directory"
     ibash_print_help_entry ".~" "changes to home directory"

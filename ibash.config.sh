@@ -15,6 +15,7 @@ load_ibash_module "${ibash_path}/definitions/verbose.sh"
 load_ibash_module "${ibash_path}/definitions/cd.sh"
 load_ibash_module "${ibash_path}/definitions/ls.sh"
 load_ibash_module "${ibash_path}/definitions/ssh.sh"
+load_ibash_module "${ibash_path}/definitions/numfiles.sh"
 
 #load_ibash_module "${ibash_path}/definitions/conf.sh"
 #load_ibash_module "${ibash_path}/definitions/ibash.sh"
