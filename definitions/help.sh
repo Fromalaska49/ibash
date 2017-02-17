@@ -32,6 +32,7 @@ help() {
     ibash_print_help_entry "cleanupLS" "Clean up Launch Services"
     ibash_print_help_entry "finderShowHidden" "Show hidden files in Finder"
     ibash_print_help_entry "finderHideHidden" "Hide hidden files in Finder"
+    ibash_print_help_entry "numfiles" "Outputs the number of files in the working directory. Includes hidden files if the --all flag is used."
 #    ibash_print_help_entry "" ""
 #    ibash_print_help_entry "" ""
 #    ibash_print_help_entry "" ""
