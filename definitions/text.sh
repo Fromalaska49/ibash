@@ -17,7 +17,9 @@ export TEXT_COLOR_LIGHT_PURPLE='\e[1;35m'
 export TEXT_COLOR_BROWN='\e[0;33m'
 export TEXT_COLOR_YELLOW='\e[1;33m'
 export TEXT_COLOR_GRAY='\e[0;30m'
+export TEXT_COLOR_GREY='\e[0;30m'
 export TEXT_COLOR_LIGHT_GRAY='\e[0;37m'
+export TEXT_COLOR_LIGHT_GREY='\e[0;37m'
 
 export TEXT_COLOR_STOP='\e[m'
 

@@ -23,7 +23,7 @@ help() {
     ibash_print_help_entry "back" "goes back to the previous directory"
     ibash_print_help_entry ".~" "changes to home directory"
     ibash_print_help_entry "c" "flushes terminal with new lines"
-    ibash_print_help_entry "numFiles" "Counts the number of unhidden files in working directory"
+#   ibash_print_help_entry "numFiles" "Counts the number of unhidden files in working directory"
     ibash_print_help_entry "gui" "Opens working directory in Finder"
     ibash_print_help_entry "refresh" "Refreshes and resources the settings" 
     ibash_print_help_entry "extract" "Extracts any common archive format"

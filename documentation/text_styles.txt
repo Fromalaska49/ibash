@@ -1,0 +1,39 @@
+TEXT_COLOR_DEFAULT	Use default color
+TEXT_COLOR_NC		No Color
+TEXT_COLOR_WHITE
+TEXT_COLOR_BLACK
+TEXT_COLOR_BLUE
+TEXT_COLOR_LIGHT_BLUE
+TEXT_COLOR_GREEN
+TEXT_COLOR_LIGHT_GREEN
+TEXT_COLOR_CYAN
+TEXT_COLOR_LIGHT_CYAN
+TEXT_COLOR_RED
+TEXT_COLOR_LIGHT_RED
+TEXT_COLOR_PURPLE
+TEXT_COLOR_LIGHT_PURPLE
+TEXT_COLOR_BROWN
+TEXT_COLOR_YELLOW
+TEXT_COLOR_GRAY, TEXT_COLOR_GREY
+TEXT_COLOR_LIGHT_GRAY, TEXT_COLOR_LIGHT_GREY
+
+TEXT_COLOR_STOP		Reset text color to default
+
+TEXT_BOLD		Activate bold text
+TEXT_UNDERLINE		Activate underline
+TEXT_DIM		Activate dimmed text
+TEXT_BLINK		Activate blinking text
+TEXT_REVERSE		Display text in reverse
+TEXT_HIDDEN		Activate hidden text (ideal for passwords)
+TEXT_ITALIC		Activate italics
+TEXT_WIDE		Activate wide text
+TEXT_SUBSCRIPT		Activate subscript
+TEXT_SUPERSCRIPT	Activate superscript
+
+TEXT_WIDE_STOP		Regular width text
+TEXT_SUBSCRIPT_STOP	Deactivate subscript
+TEXT_SUPERSCRIPT_STOP	Deactivate superscript
+
+TEXT_UNDERLINE_STOP	Deactivate underline
+
+TEXT_STOP		Reverts formatting to default
