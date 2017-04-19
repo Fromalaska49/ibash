@@ -49,7 +49,7 @@ config() {
       
     else
       #Unsupported extension
-      printf "Error: $0 does not yet support '$target'\n"
+      printf "Error: $0 does not yet support '${target}'\n"
     fi
   elif [ "$#" -gt 1 ]; then
     #too many arguments

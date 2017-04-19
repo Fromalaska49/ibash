@@ -1,0 +1,8 @@
+numfiles
+
+This command will output the number of files in the current directory.
+
+Options
+
+	--all
+	Include hidden files that begin with a '.'

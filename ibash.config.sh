@@ -2,6 +2,7 @@
 
 #set showHiddenFiles here
 
+load_ibash_module "${ibash_path}/definitions/alert.sh"
 load_ibash_module "${ibash_path}/definitions/text.sh"
 load_ibash_module "${ibash_path}/definitions/background.sh"
 load_ibash_module "${ibash_path}/definitions/videopaper.sh"
